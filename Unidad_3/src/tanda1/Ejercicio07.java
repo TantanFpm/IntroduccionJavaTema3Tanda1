@@ -29,9 +29,9 @@ public class Ejercicio07 {
 		diaActual = (c1.get(Calendar.DATE));
 		mesActual = (c1.get(Calendar.MONTH)) + 1;
 		anioActual = (c1.get(Calendar.YEAR));
-		
+
 		// Ahora acumulamos los días de los años intermedios
-		aniosIntervalo= anioActual-anioNacimiento-1;
+		aniosIntervalo = anioActual - anioNacimiento - 1;
 		for (contadorAnios = 1; contadorAnios <= aniosIntervalo; contadorAnios++) {
 			for (contadorMeses = 1; contadorMeses <= 12; contadorMeses++) {
 				if (contadorMeses % 2 != 0) {
@@ -128,17 +128,13 @@ public class Ejercicio07 {
 				break;
 
 			}
-			if (mesNacimiento<3) {
+			if (mesNacimiento < 3) {
 				if ((anioNacimiento % 400 == 0)
 						|| (anioNacimiento % 4 == 0 && !(anioNacimiento % 100 == 0)) && (mesNacimiento <= 2)) {
 					diasVividos = diasVividos + 1;
 				}
 			}
-			
 
-			
-
-			
 		} else {
 			if (mesNacimiento == mesActual)
 				diasVividos = diaActual - diaNacimiento;
