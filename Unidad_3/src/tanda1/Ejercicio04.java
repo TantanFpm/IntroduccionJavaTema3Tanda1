@@ -1,6 +1,6 @@
 package tanda1;
 
-public class Ejercico04 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		//Programa que haga un 20% de descuento a los clientes que que compren más de 100
