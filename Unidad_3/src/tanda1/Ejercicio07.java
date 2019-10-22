@@ -3,7 +3,7 @@ package tanda1;
 import java.util.Calendar;
 
 public class Ejercicio07 {
-//esta mal
+//esta mal, hacer primero en pseudocódigo para estructurarlo mejor y así ver más claro..
 	public static void main(String[] args) {
 		// Programa que calcule cuántos días ha vivido una persona (sin considerar los
 		// años bisiestos)
