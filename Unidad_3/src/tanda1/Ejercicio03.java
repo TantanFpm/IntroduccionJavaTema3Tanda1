@@ -19,7 +19,7 @@ public class Ejercicio03 {
 
 		} while (num1 == num2 || num2 == num3 || num1 == num3);
 
-		if ((num1 < num2 && num1 > num3) || (num1 < num3 && num1 > num2)) {
+		/*if ((num1 < num2 && num1 > num3) || (num1 < num3 && num1 > num2)) {
 			intermedio = num1;
 		} else if ((num2 < num1 && num2 > num3) || (num2 < num3 && num2 > num1)) {
 			intermedio = num2;
@@ -27,6 +27,6 @@ public class Ejercicio03 {
 			intermedio=num3;
 		}
 		
-		System.out.println("El numero intermedio es: " + intermedio);
+		System.out.println("El numero intermedio es: " + intermedio);*/
 	}
 }

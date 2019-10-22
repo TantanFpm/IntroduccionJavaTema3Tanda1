@@ -1,4 +1,6 @@
-package tanda3;
+package examen;
+
+import tanda3.Consola;
 
 public class Ejercicio02 {
 
@@ -11,7 +13,7 @@ public class Ejercicio02 {
 
 		do {
 			System.out
-					.println("Introduce una opción:" + "\n A:serie \n B:Averiguar si un número es primo \n C:Salir \n");
+					.println("Introduce una opción:" + "\n A:Visualiza una serie \n B:Averiguar si un número es primo \n C:Salir \n");
 			opcion = Consola.leeChar();
 		} while (opcion != 'A' && opcion != 'a' && opcion != 'B' && opcion != 'b' && opcion != 'C' && opcion != 'c');
 
