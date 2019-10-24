@@ -28,5 +28,25 @@ public class Ejercicio03 {
 		}
 		
 		System.out.println("El numero intermedio es: " + intermedio);*/
-	}
+		if(num1>num2) {
+			if(num2>num3) {
+				intermedio=num2;
+			}else {
+				if(num3>num1)
+					intermedio=num1;
+				else
+					intermedio=num3;
+			}
+		}else{
+			if(num1>num3) 
+				intermedio=num1;
+			else if(num2>num3)
+				intermedio=num3;
+				else
+					intermedio=num2;
+			}
+		System.out.println("El numero intermedio es " + intermedio);
+			
+		}
+
 }

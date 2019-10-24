@@ -7,6 +7,7 @@ public class Ejercicio11 {
 		 * Programa que calcule la factorización de un numero
 		 */
 		int num, aux, cont;
+		boolean primerNumero=true;
 		
 		System.out.println("Introduce un número");
 		num=Consola.leeInt();
@@ -16,14 +17,23 @@ public class Ejercicio11 {
 		while(cont<=aux) {
 			if(aux%cont==0) {
 				while(aux%cont==0) {
-					System.out.print(cont);
-					aux=aux/cont;
-					if(aux%cont==0)
+					if(primerNumero==true) {
+						System.out.print(cont);
+						primerNumero=false;
+						aux=aux/cont;
+						
+					}else {
 						System.out.print("*");
+						System.out.print(cont);
+						aux=aux/cont;
+					}
+					
+					
+						
 				}
 			}else {
 					cont++;
-					System.out.print("*");
+					
 				}
 			}
 			
