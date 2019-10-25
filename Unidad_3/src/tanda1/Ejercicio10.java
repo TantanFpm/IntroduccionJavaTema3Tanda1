@@ -4,19 +4,19 @@ public class Ejercicio10 {
 
 	public static void main(String[] args) {
 		/**
-		 * Programa que obtenga el m�ximo comun divisor de dos n�meros enteros
+		 * Programa que obtenga el máximo comun divisor de dos números enteros
 		 * utilizando el algoritmo de Euclides
 		 */
-		double numerador, divisor, resto, aux, mcd=1;
+		int numerador, divisor, resto, aux, mcd=1;
 		
 		do {
 			System.out.println("Introduce el primer numero");
-			numerador = Consola.leeDouble();
+			numerador = Consola.leeInt();
 		} while (numerador < 0);
 
 		do {
 			System.out.println("Introduce el segundo numero, el divisor no puede ser 0");
-			divisor = Consola.leeDouble();
+			divisor = Consola.leeInt();
 		} while (divisor < 0);
 
 		resto = numerador % divisor;
@@ -33,7 +33,7 @@ public class Ejercicio10 {
 			}
 
 		}
-		System.out.println(mcd);
+		System.out.println("El máximo común divisor es " + mcd);
 
 	}
 
