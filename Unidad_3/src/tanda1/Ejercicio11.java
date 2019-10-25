@@ -5,13 +5,15 @@ public class Ejercicio11 {
 
 	public static void main(String[] args) {
 		/**
-		 * Programa que calcule la factorización de un numero
+		 * Programa que calcule la factorizaciÃ³n de un numero
 		 */
 		int num, aux, cont;
 		boolean primerNumero=true;
 		
-		System.out.println("Introduce un número");
-		num=Consola.leeInt();
+		do{
+			System.out.println("Introduce un nÃºmero");
+			num=Consola.leeInt();
+		}while(num<0);
 		aux=num;
 		cont=2;
 		System.out.print(num + "=");
