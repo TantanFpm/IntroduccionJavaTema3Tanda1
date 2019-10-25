@@ -1,6 +1,6 @@
 package tanda2;
 
-public class Ejercico01 {
+public class Ejercicio01 {
 
 	public static void main(String[] args) {
 		// Calcular la suma y el producto de los numeros impares comprendidos entre dos
