@@ -9,7 +9,7 @@ public class Ejercicio01 {
 		int totalSuma, totalProducto, iteradorImpar;
 
 		/**
-		 * En vez de limpitarle a sumar uno para que sea impar, ya que conozco el valor,
+		 * En vez de limitarme a sumar uno para que sea impar, ya que conozco el valor,
 		 * hago este bucle por si se cambiase el valor de la constante
 		 **/
 		iteradorImpar = LIMINF;
