@@ -6,7 +6,8 @@ public class Ejercicio01 {
 		// Calcular la suma y el producto de los numeros impares comprendidos entre dos
 		// constantes
 		final int LIMINF = 20, LIMSUP = 40;
-		int totalSuma, totalProducto, iteradorImpar;
+		int totalSuma, iteradorImpar;
+		long totalProducto;
 
 		/**
 		 * En vez de limitarme a sumar uno para que sea impar, ya que conozco el valor,
