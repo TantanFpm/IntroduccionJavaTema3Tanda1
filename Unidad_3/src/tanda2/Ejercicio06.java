@@ -1,7 +1,5 @@
 package tanda2;
 
-import java.awt.PageAttributes.MediaType;
-
 public class Ejercicio06 {
 	/**
 	 * Programa que pida los datos de N(constante) familias, solicitando, por cada
@@ -15,7 +13,7 @@ public class Ejercicio06 {
 	public static void main(String[] args) {
 		final int N = 5;
 		double sueldo, sueldoMinimo = Double.MAX_VALUE, totalSueldoFamiliaNumerosa = 0, mediaSueldoFamNumerosa,
-				maxSueldoFamSinHijos = Double.MIN_VALUE, descuento, tasa;
+				maxSueldoFamSinHijos = Double.MIN_VALUE, tasa;
 		int numHijos, contFamiliaNumerosa = 0, contFamSinHijos = 0;
 
 		System.out.println("Vamos a pedir los datos de " + N
