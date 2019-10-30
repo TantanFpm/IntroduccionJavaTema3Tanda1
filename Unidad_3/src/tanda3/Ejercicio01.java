@@ -25,8 +25,10 @@ public class Ejercicio01 {
 				System.out.println("Introduce salario");
 				salario = Consola.leeDouble();
 			} while (salario < 0);
-			System.out.println("Introduce el número de hijos");
-			numHijo = Consola.leeInt();
+			do {
+				System.out.println("Introduce el número de hijos");
+				numHijo = Consola.leeInt();
+			} while (numHijo<0);
 			for (int j = 1; j <= numHijo; j++) {
 				do {
 					System.out.println("Introduce la edad");
@@ -47,7 +49,7 @@ public class Ejercicio01 {
 				totalSalarioFamNumerosa += salario;
 				contFamNumerosa += 1;
 			}
-			if (numHijo > maxHijos) {
+			if (numHijo!=0 && numHijo > maxHijos) {
 				maxHijos = numHijo;
 				codigoMaxHijos = codigoFamilia;
 			}
@@ -55,8 +57,10 @@ public class Ejercicio01 {
 			System.out.println("La familia con codigo " + codigoFamilia + " tiene " + contHijoVaronPreadolescente
 					+ " hijos varones de entre 10 y 15 años. \n");
 			contHijoVaronPreadolescente = 0;
-			System.out.println("La edad mínima de los hijos de esta familia es " + edadMinimaFamilia + "\n");
-			edadMinimaFamilia = Integer.MAX_VALUE;
+			if (numHijo!=0) {
+				System.out.println("La edad mínima de los hijos de esta familia es " + edadMinimaFamilia + "\n");
+				edadMinimaFamilia = Integer.MAX_VALUE;
+			}
 		}
 
 		if (contFamNumerosa > 0) {
@@ -65,8 +69,11 @@ public class Ejercicio01 {
 		} else
 			System.out.println("No hay familias numerosas, de tres hijos o más");
 
-		System.out.println(
-				"La familia con más hijos es la familia numero " + codigoMaxHijos + ", con " + maxHijos + " hijos");
+		if (codigoMaxHijos!=0) {
+			System.out.println(
+					"La familia con más hijos es la familia numero " + codigoMaxHijos + ", con " + maxHijos + " hijos");
+		}else
+			System.out.println("Ninguna familia tiene hijos");
 
 	}
 

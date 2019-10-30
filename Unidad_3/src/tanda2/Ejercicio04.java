@@ -21,8 +21,10 @@ public class Ejercicio04 {
 			origen = Consola.leeChar();
 			System.out.println("Introduce la ciudad de destino");
 			destino = Consola.leeChar();
-			System.out.println("Introduce la distancia entre ellas");
-			distancia = Consola.leeDouble();
+			do {
+				System.out.println("Introduce la distancia entre ellas");
+				distancia = Consola.leeDouble();
+			} while (distancia<=0);
 			if (distancia < distanciaMinima) {
 				distanciaMinima = distancia;
 				origenMin = origen;

@@ -11,7 +11,7 @@ public class Ejercicio07 {
 		final int PERSONAS = 10;
 		final int MEDIACIMUJERMANCHESTER = 102, MEDIACIMUJERSHEFFIELD = 106, MEDIACIHOMBREMANCHESTER = 101,
 				MEDIACIHOMBRESHEFFIELD = 105;
-		int edad, cI, cIMaxVeinteañerosHombSheffield = Integer.MIN_VALUE, ciMedioManchester, totalCIManchester = 0,
+		int edad, cI, cIMaxVeinteanyerosHombSheffield = Integer.MIN_VALUE, ciMedioManchester, totalCIManchester = 0,
 				contPersonasManchester = 0;
 		char sexo, ciudad;
 
@@ -73,8 +73,8 @@ public class Ejercicio07 {
 						System.out.println("Su coeficiente intelectual es el de la media \n");
 					else
 						System.out.println("Fu CI está por encima de la media de los hombres de su ciudad \n");
-					if ((edad >= 20 && edad <= 30) && (cI > cIMaxVeinteañerosHombSheffield)) {
-						cIMaxVeinteañerosHombSheffield = cI;
+					if ((edad >= 20 && edad <= 30) && (cI > cIMaxVeinteanyerosHombSheffield)) {
+						cIMaxVeinteanyerosHombSheffield = cI;
 					}
 				}
 			}
@@ -82,7 +82,7 @@ public class Ejercicio07 {
 
 		}
 		System.out.println("El CI máximo entre los hombres de veinte a treinta años de Sheffield es "
-				+ cIMaxVeinteañerosHombSheffield);
+				+ cIMaxVeinteanyerosHombSheffield);
 
 		if (contPersonasManchester > 0) {
 			ciMedioManchester = totalCIManchester / contPersonasManchester;

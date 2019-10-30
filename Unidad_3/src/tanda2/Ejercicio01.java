@@ -14,12 +14,12 @@ public class Ejercicio01 {
 		 * hago este bucle por si se cambiase el valor de la constante
 		 **/
 		iteradorImpar = LIMINF;
-		do {
+		while (iteradorImpar % 2 == 0) {
 			iteradorImpar += 1;
-		} while (iteradorImpar % 2 == 0);
+		}
 		totalProducto = 1;
 		totalSuma = 0;
-		while (iteradorImpar < LIMSUP) {
+		while (iteradorImpar <= LIMSUP) {
 			totalSuma += iteradorImpar;
 			totalProducto *= iteradorImpar;
 			iteradorImpar += 2;
