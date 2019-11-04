@@ -4,7 +4,7 @@ public class Ejercicio09 {
 
 	public static void main(String[] args) {
 		// Visualizar un paralelogramo con 4x por fila y tantas filas como pida el usuario
-		int filas, columnasBlanco, columnas;
+		int filas, columnasBlanco;
 		final int columnasX=4;
 		do {
 			System.out.println("Cuantas filas quieres que tenga la figura");
