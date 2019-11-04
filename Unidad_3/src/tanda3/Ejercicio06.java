@@ -7,7 +7,7 @@ public class Ejercicio06 {
 		 * Dado el mes y el día de la semana en que comienza (1:lunes, 2:martes...)
 		 * visualizaremos un calendario
 		 */
-		int mes, diaInicio, totalDias, totalSemana, iteradorDias=1;
+		int mes, diaInicio, totalDias, iteradorDias=1;
 		char nombreDia=' ';
 		do {
 			System.out.println("Introduce el número de mes");
