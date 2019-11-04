@@ -4,7 +4,7 @@ public class Ejercicio10 {
 
 	public static void main(String[] args) {
 		/**
-		 * Programa que obtenga el máximo comun divisor de dos números enteros
+		 * Programa que obtenga el maximo comun divisor de dos numeros enteros
 		 * utilizando el algoritmo de Euclides
 		 */
 		int numerador, divisor, resto, aux, mcd=1;

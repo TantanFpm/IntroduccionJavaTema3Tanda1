@@ -5,7 +5,7 @@ public class Ejercicio11 {
 
 	public static void main(String[] args) {
 		/**
-		 * Programa que calcule la factorización de un numero
+		 * Programa que calcule la factorizacion de un numero
 		 */
 		int num, aux, cont;
 		boolean primerNumero=true;
