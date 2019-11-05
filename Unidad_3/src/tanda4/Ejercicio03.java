@@ -4,7 +4,7 @@ public class Ejercicio03 {
 
 	public static void main(String[] args) {
 		// Rombo
-		int filas, columnasBlanco, columnasEscritas=1;
+		int filas, columnasBlanco = 1, columnasEscritas = 1;
 		do {
 			System.out.println(
 					"Vamos a hacer un rombo, introduce el número de filas que quieres que tenga, debe ser impar");
@@ -21,44 +21,51 @@ public class Ejercicio03 {
 				}
 				if (i % 2 != 0) {
 					for (int j = 1; j <= columnasEscritas; j++) {
-						if(j%2!=0)
+						if (j % 2 != 0)
 							System.out.print("Y\t");
 						else
 							System.out.print("X\t");
 					}
 				} else {
 					for (int j = 1; j <= columnasEscritas; j++) {
-						if(j%2!=0)
+						if (j % 2 != 0)
 							System.out.print("X\t");
 						else
 							System.out.print("Y\t");
 					}
 				}
-				columnasEscritas+=2;
+				columnasEscritas += 2;
 
 			} else {
-				//modifica esto de abajo!!!
-				columnasBlanco=1;
+				if ((i == (filas / 2) + 2)) {
+					columnasBlanco = 1;
+					columnasEscritas-=4;
+				}else {
+					columnasEscritas-=2;
+				}
+					
+				
 				for (int j = 1; j <= columnasBlanco; j++) {
-						System.out.print(" \t");
+					System.out.print(" \t");
 
+				}
+				if (i % 2 != 0) {
+					for (int j = 1; j <= columnasEscritas; j++) {
+						if (j % 2 != 0)
+							System.out.print("Y\t");
+						else
+							System.out.print("X\t");
 					}
-					if (i % 2 != 0) {
-						for (int j = 1; j <= columnasEscritas; j++) {
-							if(j%2!=0)
-								System.out.print("Y\t");
-							else
-								System.out.print("X\t");
-						}
-					} else {
-						for (int j = 1; j <= columnasEscritas; j++) {
-							if(j%2!=0)
-								System.out.print("X\t");
-							else
-								System.out.print("Y\t");
-						}
+				} else {
+					for (int j = 1; j <= columnasEscritas; j++) {
+						if (j % 2 != 0)
+							System.out.print("X\t");
+						else
+							System.out.print("Y\t");
 					}
-					columnasEscritas+=2;
+				}
+				
+				columnasBlanco+=1;
 
 			}
 			System.out.print("\n");
