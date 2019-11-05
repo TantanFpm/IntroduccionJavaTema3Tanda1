@@ -12,6 +12,7 @@ public class Ejercicio06 {
 		do {
 			System.out.println("Introduce el número de mes");
 			mes = Consola.leeInt();
+		} while (mes < 1 || mes > 12);
 			do {
 				System.out.println("Introduce el día de la semana en el que empieza el mes");
 				diaInicio = Consola.leeInt();
@@ -548,7 +549,7 @@ public class Ejercicio06 {
 				System.out.println("El numero de mes debe estar comprendido entre 1 y 12 porque sólo hay doce meses");
 				break;
 			}
-		} while (mes < 1 || mes > 12);
+		
 
 	}
 

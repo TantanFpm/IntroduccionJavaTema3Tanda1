@@ -2,11 +2,11 @@ package tanda6;
 
 import tanda3.Consola;
 
-public class Ejercicio03 {
+public class Ejercicio06 {
 
 	public static void main(String[] args) {
-		// serie
-		int n, valorImpar=0, valorPar=1;
+		// series
+		int n, valorImpar=1, valorPar=1, sustraendo=1, multiplicando=5;
 		do {
 			System.out.println("Cuantos números quieres que tenga la serie");
 			n=Consola.leeInt();
@@ -15,13 +15,15 @@ public class Ejercicio03 {
 		for(int i=1; i<=n; i++) {
 			if(i%2!=0) {
 				System.out.print(valorImpar + "\t");
-				valorImpar-=2;
+				valorImpar*=multiplicando;
 			}else {
 				System.out.print(valorPar +"\t");
-				valorPar+=2;
+				valorPar-=sustraendo;
+				sustraendo+=1;
 			}
 			
 		}
+
 
 	}
 
