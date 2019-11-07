@@ -3,7 +3,7 @@ package tanda6;
 public class Ejercicio14 {
 
 	public static void main(String[] args) {
-	int numFilas, espacioBlanco, espacioZ;
+	int numFilas, espacioBlanco;
 	do {
 		System.out.println("Introduce el numero de filas");
 		numFilas=Consola.leeInt();

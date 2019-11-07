@@ -4,7 +4,7 @@ public class Ejercicio15 {
 
 	public static void main(String[] args) {
 		// letras mayusculas ascii del 65 al 90 incluidos 25
-		int num, espacioBlanco, espacioEscrito, espacioBlancoBorde, espacioX, espacioBlancoCentro, valor;
+		int num, espacioBlanco, espacioEscrito, espacioBlancoBorde, espacioBlancoCentro, valor;
 		char a = 65;
 		do {
 			System.out.println("Introduce un numero");
@@ -100,9 +100,8 @@ public class Ejercicio15 {
 
 				}
 				System.out.println();
-			}
-			else {
-				valor=1;
+			} else {
+				valor = 1;
 				for (int j = 1; j <= espacioEscrito; j++) {
 					System.out.print(valor + " ");
 					valor += 1;
@@ -128,27 +127,27 @@ public class Ejercicio15 {
 				espacioEscrito -= 1;
 				valor = 1;
 			}
-			
+
 		}
-		
+
 		System.out.println("\nFigura 4 \n");
-		espacioBlanco=0;
-		espacioEscrito=num*2;
+		espacioBlanco = 0;
+		espacioEscrito = num * 2;
 		for (int i = 0; i <= num; i++) {
 			for (int j = 0; j < espacioBlanco; j++) {
 				System.out.print("  ");
 			}
 			for (int j = 1; j < espacioEscrito; j++) {
-				if(j%2!=0)
+				if (j % 2 != 0)
 					System.out.print("  ");
 				else
 					System.out.print("# ");
 			}
-			espacioEscrito-=2;
-			espacioBlanco+=1;
+			espacioEscrito -= 2;
+			espacioBlanco += 1;
 			System.out.println();
 		}
-		
+
 	}
 	
 }

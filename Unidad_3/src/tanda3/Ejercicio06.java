@@ -23,34 +23,10 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Enero");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
-					System.out.println();
+					
+					if(filas==2)
+						System.out.println("L\tM\tX\tJ\tV\tS\tD\t");
+					
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
 							System.out.print("  \t");
@@ -59,6 +35,7 @@ public class Ejercicio06 {
 							iteradorDias+=1;
 						}
 					}
+					System.out.println();
 				}
 				break;
 			case 2:
@@ -66,34 +43,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Febrero");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
-					System.out.println();
+					if(filas==2)
+						System.out.println("L\tM\tX\tJ\tV\tS\tD\t");
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
 							System.out.print("  \t");
@@ -102,6 +53,7 @@ public class Ejercicio06 {
 							iteradorDias+=1;
 						}
 					}
+					System.out.println();
 				}
 
 				break;
@@ -110,33 +62,9 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Marzo");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
+					
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -154,33 +82,9 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Abril");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
+						
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -198,33 +102,9 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Mayo");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
+						
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -242,33 +122,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Junio");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -286,33 +141,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Julio");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -330,33 +160,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Agosto");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -374,33 +179,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Septiembre");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -418,33 +198,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Octubre");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -462,33 +217,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Noviembre");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
@@ -506,33 +236,8 @@ public class Ejercicio06 {
 				for (int filas = 1; filas <= 8; filas++) {
 					if(filas==1)
 						System.out.println("\t \t Diciembre");
-					for (int i = 1; i <= 7 && filas == 2; i++) {
-						switch (i) {
-						case 1:
-							nombreDia='L';
-							break;
-						case 2:
-							nombreDia='M';
-							break;
-						case 3:
-							nombreDia='X';
-							break;
-						case 4:
-							nombreDia='J';
-							break;
-						case 5:
-							nombreDia='V';
-							break;
-						case 6:
-							nombreDia='S';
-							break;
-						case 7:
-							nombreDia='D';
-							break;
-
-						}
-						System.out.print( nombreDia + "\t");
-					}
+					if(filas==2)
+						System.out.print("L\tM\tX\tJ\tV\tS\tD\t");
 					System.out.println();
 					for (int columnas = 1; columnas <= 7 && filas>2; columnas++) {
 						if(filas == 3 && columnas<diaInicio)
