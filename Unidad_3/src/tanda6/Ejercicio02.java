@@ -6,7 +6,8 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {
 		// serie
-		int n, valor, inicio=10, multiplicando=1;
+		int n, inicio=10, multiplicando=1;
+		long valor;
 		do {
 			System.out.println("Cuantos números quieres que tenga la serie");
 			n=Consola.leeInt();

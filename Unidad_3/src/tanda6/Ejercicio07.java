@@ -5,7 +5,7 @@ public class Ejercicio07 {
 	public static void main(String[] args) {
 		// series
 		int inicio, valor, operador;
-		boolean operacion = true;
+
 		do {
 			System.out.println("Introduce el número de inicio, tambien sera el numero de valores");
 			inicio = Consola.leeInt();
@@ -16,27 +16,28 @@ public class Ejercicio07 {
 		System.out.print(valor + "\t");
 		valor -= operador;
 		operador += 1;
+		while (valor > 0) {
+			System.out.print(valor + "\t");
+			valor -= operador;
+			operador += 1;
+		}
+		if(valor>=0)
+			System.out.print(valor+"\t");
+		else {
+			operador -= 1;
+			valor += operador;
+		}
+		operador -= 1;
+		valor += operador;
+		
 		while (valor < inicio) {
-			if (valor >= 0)
-				System.out.print(valor + "\t");
+			System.out.print(valor + "\t");
 
-			if (operacion) {
-				valor -= operador;
-				operador += 1;
-			}
-
-			else {
-				valor += operador;
-				operador -= 1;
-			}
-			if (valor <= 0) {
-				operacion = false;
-				operador -= 1;
-
-			}
+			operador -= 1;
+			valor += operador;
 
 		}
-		System.out.print(valor + "\t");
+		System.out.print(valor +"\t");
 
 	}
 

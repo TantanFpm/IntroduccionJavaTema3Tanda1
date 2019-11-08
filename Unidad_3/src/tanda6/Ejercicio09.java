@@ -15,13 +15,16 @@ public class Ejercicio09 {
 		for(int i=num1; i<=num2; i++) {
 			multiplicando=i;
 			multiplicador=1;
-			System.out.println("Tabla del " + multiplicando);
-			while(multiplicador<=10) {
+			//System.out.println("Tabla del " + multiplicando);
+			for (multiplicador = 1; multiplicador <=10; multiplicador++) {
 				producto= multiplicando * multiplicador;
-				System.out.println(multiplicando + "x" + multiplicador + "= "+  producto);
-				multiplicador+=1;
-			}
-			System.out.println("---***---");
+				System.out.print(producto+"\t");
+			
+				
+				/*System.out.println(multiplicando + "x" + multiplicador + "= "+  producto);
+				multiplicador+=1;*/
+				} 
+			System.out.println();
 			
 		}
 	}

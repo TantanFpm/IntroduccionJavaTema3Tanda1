@@ -14,7 +14,7 @@ public class Ejercicio08 {
 		} while (numGrupos<=0);
 	
 		for (int i =1; i<=numGrupos; i++) {
-			System.out.print(VALOR_INICIAL+valor+"\t");
+			System.out.print(VALOR_INICIAL+valor);
 			valor+="-";
 			
 		}

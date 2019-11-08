@@ -7,12 +7,9 @@ public class Ejercicio04 {
 	public static void main(String[] args) {
 		// serie
 		int n, valor=1, multiplicando=2;
-		do {
-			System.out.println("Cuantos números quieres que tenga la serie");
-			n=Consola.leeInt();
-		} while (n<=0);
 		
-		for(int i=1; i<=n; i++) {
+		
+		for(int i=1; valor<=100; i++) {
 			System.out.print(valor + "\t");
 			if(i%2!=0) {
 				
